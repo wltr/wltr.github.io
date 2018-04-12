@@ -39,7 +39,7 @@ div::-webkit-scrollbar
 
 div::-webkit-scrollbar-thumb
 {
-  background-color: #191919;
+  background-color: #404040;
 }
 
 .container {
