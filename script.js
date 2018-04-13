@@ -1,3 +1,3 @@
-$(window).load(function() {
-  alert('test');
+$(window).on('load', function() {
+  console.log('done');
 });
