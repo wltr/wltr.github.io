@@ -204,6 +204,7 @@ div::-webkit-scrollbar-thumb
     flex-direction: row;
     flex-grow: 0;
     height: 68px;
+    min-height: 68px;
   }
 
   .content {
