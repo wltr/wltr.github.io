@@ -119,7 +119,7 @@ div::-webkit-scrollbar-thumb
 
 .content {
   flex-grow: 1;
-  background: rgba(229, 229, 229, 0.7);
+  background: rgba(229, 229, 229, 0.8);
   padding: 40px;
   border-radius: 8px 0 0 8px;
   text-align: center;
@@ -136,10 +136,14 @@ div::-webkit-scrollbar-thumb
   color: #404040;
 }
 
+.content .info {
+  text-align: justify;
+}
+
 .content hr {
   border: 0;
   height: 0;
-  width: 90%;
+  width: 100%;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   margin-left: auto;
@@ -161,14 +165,14 @@ div::-webkit-scrollbar-thumb
 
 .content h2 {
   font-size: 24px;
-  font-weight: 300;
-  color: #404040;
+  font-weight: 400;
+  color: #fff;
   margin-top: 30px;
   margin-bottom: 16px;
 }
 
 .content p {
-  line-height: 24px;
+  line-height: 28px;
 }
 
 .copyright {
