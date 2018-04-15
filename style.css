@@ -166,9 +166,9 @@ div::-webkit-scrollbar-thumb
 .content h2 {
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: #fafafa;
   margin-top: 30px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .content p {
