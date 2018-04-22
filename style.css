@@ -75,7 +75,7 @@ div::-webkit-scrollbar-thumb
 
 .links {
   order: 1;
-
+  flex: 3 1 auto;
   display: flex;
   flex-direction: column;
 }
@@ -118,7 +118,7 @@ div::-webkit-scrollbar-thumb
 }
 
 .content {
-
+  flex: 1 1 400px;
   background: rgba(229, 229, 229, 0.75);
   padding: 40px;
   border-radius: 8px 0 0 8px;
@@ -137,7 +137,7 @@ div::-webkit-scrollbar-thumb
 }
 
 .content .info {
-  text-align: justify;
+  text-align: left;
 }
 
 .content hr {
@@ -172,7 +172,7 @@ div::-webkit-scrollbar-thumb
 }
 
 .content p {
-  line-height: 28px;
+  line-height: 26px;
   margin-bottom: 12px;
 }
 
@@ -199,13 +199,13 @@ div::-webkit-scrollbar-thumb
 
 @media only screen and (max-width: 1200px) {
   .content {
-    flex-grow: 2;
+    flex: 2 1 400px;
   }
 }
 
 @media only screen and (max-width: 1000px) {
   .links {
-    flex-grow: 2;
+    flex: 2 1 auto;
   }
 }
 
@@ -222,7 +222,7 @@ div::-webkit-scrollbar-thumb
   .links {
     order: 0;
     flex-direction: row;
-    flex-grow: 0;
+    flex: 0 1 auto;
     height: 68px;
     min-height: 68px;
   }
