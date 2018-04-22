@@ -118,7 +118,7 @@ div::-webkit-scrollbar-thumb
 }
 
 .content {
-  /*flex-grow: 1;*/
+  flex-grow: 1;
   background: rgba(229, 229, 229, 0.75);
   padding: 40px;
   border-radius: 8px 0 0 8px;
