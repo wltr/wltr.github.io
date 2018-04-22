@@ -75,7 +75,7 @@ div::-webkit-scrollbar-thumb
 
 .links {
   order: 1;
-  flex-grow: 3;
+
   display: flex;
   flex-direction: column;
 }
@@ -118,7 +118,7 @@ div::-webkit-scrollbar-thumb
 }
 
 .content {
-  flex-grow: 1;
+
   background: rgba(229, 229, 229, 0.75);
   padding: 40px;
   border-radius: 8px 0 0 8px;
@@ -176,11 +176,11 @@ div::-webkit-scrollbar-thumb
   margin-bottom: 12px;
 }
 
-.content .info .bottom {
+.content .bottom {
   text-align: right;
 }
 
-.content .info .signature {
+.content .signature {
   color: #404040;
   font-weight: 900;
 }
