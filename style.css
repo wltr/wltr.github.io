@@ -175,6 +175,14 @@ div::-webkit-scrollbar-thumb
   line-height: 28px;
 }
 
+.content .info .bottom {
+  text-align: right;
+}
+
+.content .info. .signature {
+  font-weight: bold;
+}
+
 .copyright {
   font-size: 10px;
   color: #bbb;
