@@ -12,140 +12,28 @@ html, body {
 body {
   font-family: 'Lato', sans-serif;
   background-color: #fff;
-  color: #191919;
-  display: none;
-}
-
-.fontawesome-i2svg-active body {
-  display: initial;
-}
-
-.loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  background-color: #fff;
-}
-
-.loader div {
-  text-align: center;
-}
-
-.loader-logo {
-  margin-bottom: 40px;
-}
-
-.wrapper {
-  width: 100%;
-  height: 100%;
-  padding: 40px;
-}
-
-div::-webkit-scrollbar-track
-{
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #404040;
-}
-
-div::-webkit-scrollbar
-{
-  width: 6px;
-  background-color: #404040;
-}
-
-div::-webkit-scrollbar-thumb
-{
-  background-color: #e5e5e5;
-}
-
-.container {
-  height: 100%;
-  display: flex;
-  background-image: url("images/background.jpg");
-  background-size: auto 100%;
-  border-radius: 8px;
-}
-
-.links {
-  order: 1;
-  flex: 3 1 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.brand {
-  margin-left: auto;
-  margin-right: 40px;
-  margin-top: 34px;
-}
-
-.social {
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: 40px;
-  margin-bottom: 24px;
-}
-
-.social ul {
-  list-style: none;
-}
-
-.social li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.social li:first-child {
-  margin-left: 0;
-}
-
-
-.social a {
-  text-decoration: none;
-  font-size: 40px;
-  color: #e5e5e5;
-}
-
-.social a:hover {
-  color: #191919;
-}
-
-.content {
-  flex: 1 1 400px;
-  background: rgba(229, 229, 229, 0.75);
-  padding: 40px;
-  border-radius: 8px 0 0 8px;
-  text-align: center;
-  overflow-y: auto;
-}
-
-.content .headshot {
-  border-radius: 50%;
-  margin-top: 40px;
-}
-
-.content .location {
-  margin-bottom: 30px;
   color: #404040;
 }
 
-.content .info {
-  text-align: left;
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
 }
 
-.content hr {
-  border: 0;
-  height: 0;
-  width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.content .headshot {
+  width: 242px;
+  height: 242px;
+  border: 1px solid #404040;
+  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -153,7 +41,6 @@ div::-webkit-scrollbar-thumb
 .content h1 {
   font-size: 34px;
   font-weight: 900;
-  color: #404040;
   margin-top: 30px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -163,88 +50,35 @@ div::-webkit-scrollbar-thumb
   font-size: 40px;
 }
 
-.content h2 {
-  font-size: 26px;
-  font-weight: 300;
+.content .location {
+  margin-bottom: 40px;
+}
+
+.content .social ul {
+  list-style: none;
+}
+
+.content .social li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.content .social li:first-child {
+  margin-left: 0;
+}
+
+.content .social a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #bbb;
+}
+
+.content .social a:hover {
   color: #404040;
-  margin-top: 30px;
-  margin-bottom: 12px;
-}
-
-.content p {
-  line-height: 26px;
-  margin-bottom: 12px;
-}
-
-.content .bottom {
-  text-align: right;
-}
-
-.content .signature {
-  color: #404040;
-  font-weight: 900;
 }
 
 .copyright {
   font-size: 10px;
   color: #bbb;
   margin-top: 12px;
-}
-
-@media only screen and (min-aspect-ratio: 17/10) {
-  .container {
-    background-size: 100% auto;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .content {
-    flex: 2 1 400px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .links {
-    flex: 2 1 auto;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .wrapper {
-    padding: 0;
-  }
-
-  .container {
-    flex-direction: column;
-    border-radius: 0;
-  }
-
-  .links {
-    order: 0;
-    flex-direction: row;
-    flex: 0 1 auto;
-    height: 68px;
-    min-height: 68px;
-  }
-
-  .content {
-    border-radius: 0;
-  }
-
-  .brand {
-    height: 40px;
-    width: 40px;
-    margin-left: 12px;
-    margin-right: auto;
-    margin-top: 12px;
-  }
-
-  .social {
-    margin-right: 12px;
-    margin-top: 12px;
-  }
-
-  .copyright {
-    display: none;
-  }
 }
